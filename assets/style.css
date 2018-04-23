@@ -1,0 +1,151 @@
+/*general */
+
+body {
+background: rgb(238,197,54);
+/* background: linear-gradient(145deg, rgba(238,197,54,1) 60%, rgba(246,223,144,1) 100%); */
+    color:rgb(0,0,0);
+    font-family: 'open sans', sans-serif;
+}
+h1,h2,h3,h4, h5 {
+    font-weight: 700;
+}
+nav {
+    background: rgba(34, 34, 34,.7);
+    color:rgb(255, 255, 255);
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+
+}
+nav a {
+    color:rgb(255,255,255);
+}
+.navbar-brand img {
+    width: 10%;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.overlay {
+    background: rgba(0,0,0,.6);
+}
+/*section 1 */
+.section-1 {
+    background: url('../assets/img/joey-thompson-63366-unsplash.jpg')fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 80vh;
+    font-size: .85rem;
+    /* border-bottom: 2px solid #000; */
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, .2);
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+   
+}
+.section-4 {
+    background: url('../assets/img/jo-jo-241969-unsplash.jpg')fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 40vh;
+    
+}
+.section-3 {
+    background: url('../assets/img/sliderconcert-1680x580-gra.jpg')fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+ 
+    color:rgba(255,255,255,1);
+    font-size: .75rem;
+    padding:1rem;
+}
+.section-3 h2 {
+    color:rgba(238,197,54,1);
+}
+.section-2 {
+    background: rgb(238,197,54);
+    background: linear-gradient(162deg, rgba(238,197,54,1) 60%, rgba(246,223,144,1) 100%);
+    min-height: 15vh;
+    color: rgba(0,0,0,1);
+    padding: 1rem;
+}
+.footer {
+    background: rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
+    font-size: .75rem;
+    padding: 1rem;
+}
+.content {
+    background: rgba(0,0,0,.6);
+    color:rgb(255,255,255);
+    min-height: 80vh;
+    padding: 1rem;
+    align-items: center;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+    
+}
+.cta-form {
+   margin-top: 15vh;
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content-align {
+    align-items: center;
+}
+.header-info {
+    min-height: 60vh;
+    padding: 1rem;
+   
+}
+.white-rounded {
+    background:rgba(255,255,255,.9);
+    color:#444;
+
+}
+.white {
+    background: #fff;
+    color:#444;
+    padding: 1rem;
+}
+
+/*navigation*/
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+ }
+
+ /*card style */
+ .card {
+     border: 0;
+     margin-bottom: 2vh;
+     background: transparent;
+     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, .2);
+ }
+ .card-header {
+    padding: .75rem .75rem;
+    margin-bottom: 0;
+    background-color: rgba(34, 34, 34,1.0);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+    font-size:.80rem;
+    color:rgba(255,255,255,1.0);
+}
+.card-body, .card-footer {
+    color:rgba(255,255,255,1.0);
+    background: rgba(0,0,0,.6);
+    font-size:.75rem;
+}
+.card-body li {
+    margin-left: -25px;
+}
