@@ -8,20 +8,35 @@ background: rgb(238,197,54);
 }
 h1,h2,h3,h4, h5 {
     font-weight: 700;
+
 }
 nav {
     background: rgba(34, 34, 34,.7);
     color:rgb(255, 255, 255);
     font-family: 'open sans', sans-serif;
     font-weight: 700;
+    font-size:14px;
 
 }
 nav a {
     color:rgb(255,255,255);
 }
-.navbar-brand img {
-    width: 10%;
+nav a:hover {
+    color:rgba(255,255,255,.8);
+    transition: 2ms;
 }
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    width: 15%;}
+.navbar-brand img {
+    width: 35%;
+}  
 
 .btn {
     text-transform: uppercase;
@@ -31,6 +46,8 @@ nav a {
 .overlay {
     background: rgba(0,0,0,.6);
 }
+
+/*paralax sections */
 /*section 1 */
 .section-1 {
     background: url('../assets/img/joey-thompson-63366-unsplash.jpg')fixed;
@@ -66,6 +83,22 @@ nav a {
 .section-3 h2 {
     color:rgba(238,197,54,1);
 }
+.section-faq {
+    background: url('../assets/img/sliderconcert-1680x580-gra.jpg')fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+ 
+    color:rgba(255,255,255,1);
+    font-size: .75rem;
+    padding:1rem;
+}
+.tenvh {
+    margin: 14vh auto;
+}
+.section-faq h2 {
+    color:rgba(238,197,54,1);
+}
 .section-2 {
     background: rgb(238,197,54);
     background: linear-gradient(162deg, rgba(238,197,54,1) 60%, rgba(246,223,144,1) 100%);
@@ -73,11 +106,17 @@ nav a {
     color: rgba(0,0,0,1);
     padding: 1rem;
 }
+
+/*footer */
 .footer {
     background: rgba(0,0,0,1);
     color:rgba(255,255,255,1);
     font-size: .75rem;
     padding: 1rem;
+}
+.footer a {
+    color:rgba(255,255,255,1);
+
 }
 .content {
     background: rgba(0,0,0,.6);
@@ -148,4 +187,49 @@ nav a {
 }
 .card-body li {
     margin-left: -25px;
+}
+
+/*modal style */
+.modal-header {
+    background: rgb(238,197,54);
+    background: linear-gradient(162deg, rgba(238,197,54,1) 60%, rgba(246,223,144,1) 100%);
+  color:rgba(0,0,0,1);
+ padding: .5rem;
+}
+.modal-footer {
+    background: rgba(246,223,144,1);
+    color:rgba(0,0,0,1);
+    font-size: .68rem;
+}
+.modal-footer p {
+    text-align: left;
+}
+.modal-body label {
+    font-weight: 700;
+    padding.25rem;
+}
+
+/*faq styles */
+.faq h2 {
+    padding: 1rem;
+}
+.faq h3 {
+    font-size:1.2rem;
+}
+.faq strong {
+    font-size: 1rem;
+}
+.faq p {
+    font-size: .95rem;
+}
+
+.faq label {
+    font-weight: 700;
+}
+.faq-form {
+    background: rgb(238,197,54);
+    background: linear-gradient(162deg, rgba(238,197,54,1) 60%, rgba(246,223,144,1) 100%);
+  color:rgba(0,0,0,1);
+  text-align: center;
+  padding:.5rem;
 }
